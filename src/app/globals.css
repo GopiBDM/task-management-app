@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Brand colours: change them here and the whole app updates. */
+@theme {
+  --color-brand-50: #e7f5f2;
+  --color-brand-100: #c5e8e1;
+  --color-brand-600: #0f766e;
+  --color-brand-700: #0b5f58;
+  --color-brand-900: #0a2f2c;
+  --color-ink: #0f1f24;
+  --color-muted: #5b6f75;
+  --color-line: #dce4e6;
+  --color-canvas: #f4f7f8;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
