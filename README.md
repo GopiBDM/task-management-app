@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # OpsTrack - step 1 (PostgreSQL + pgAdmin): login + home page
 
 See the chat instructions for the full walk-through. Short version:
@@ -10,3 +11,7 @@ See the chat instructions for the full walk-through. Short version:
 5. pgAdmin: create database `opstrack`, run `db/schema.sql` in its Query Tool.
 6. node --env-file=.env.local scripts/create-user.mjs you@company.com "Your Name" YourPassword
 7. npm run dev  ->  http://localhost:3000
+=======
+# task-management-app
+A cross-platform task management app built with React and React Native, using a monorepo structure for code sharing
+>>>>>>> 7867d5d5d685b93596528c8e8e729048e1efa067
